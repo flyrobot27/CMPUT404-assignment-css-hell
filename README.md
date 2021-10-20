@@ -42,6 +42,9 @@ Modifications made:
 * Changed fonts to cursive handwriting
 * All images have become its [evil version](https://knowyourmeme.com/memes/evil-x-be-like) (i.e. inverted color)
 
+Note:
+ * There might be some color inaccuracies, because my monitor isn't the most color accurate. Which means the colors might not be as right.
+
 References
 ==========
 
