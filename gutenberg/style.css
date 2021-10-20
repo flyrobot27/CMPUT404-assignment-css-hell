@@ -1,0 +1,567 @@
+/*
+Part of the CSS is directly borrowed from the original HTML from 1, 2, 3
+Authors: Al Haines, Markus Brenner, Irma Spehar
+*/
+table {
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 180%
+    }
+td.leftalign {
+    padding-right: 4em;
+    text-align: left;
+    padding-left: 1em
+    }
+td.rightalign {
+    text-align: right
+    }
+body {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify;
+    background-color: #0a0a0a
+    }
+body.tei {
+    margin: 4ex 10%;
+    text-align: justify
+    }
+h1, h2, h3, h4, h5 {
+    text-align: center;
+    font-family: "Brush Script MT", cursive;
+    font-style: normal;
+    font-weight: normal;
+    color: lightblue;
+    line-height: 1.5;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em
+    }
+h1 {
+    font-size: 300%;
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+    letter-spacing: 0.12em;
+    word-spacing: 0.2em;
+    text-indent: 0;
+    }
+h2 {
+    font-size: 150%;
+    margin-top: 2em;
+    margin-bottom: 1em
+    }
+h3 {
+    font-size: 130%;
+    margin-top: 1em
+    }
+h4 {
+    font-size: 120%
+    }
+h5 {
+    font-size: 110%
+    }
+.no-break {
+    page-break-before: avoid
+    }
+div.chapter {
+    page-break-before: always;
+    margin-top: 4em
+    }
+hr {
+    width: 80%;
+    margin-top: 2em;
+    margin-bottom: 2em
+    }
+p {
+    text-indent: 1em;
+    color: white;
+    margin-top: 0.25em;
+    margin-bottom: 0.75em;
+    line-height: 1.6;
+    font-family: "Lucida Handwriting", cursive;
+    font-size: large;
+    }
+p.poem {
+    text-indent: 0%;
+    margin-left: 10%;
+    font-size: 90%;
+    margin-top: 1em;
+    margin-bottom: 1.45em
+    }
+p.letter {
+    text-indent: 0%;
+    margin-top: 1.5em;
+    margin-left: 10%;
+    margin-right: 10%
+    }
+p.letter2 {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1.45em
+    }
+p.right {
+    text-align: right;
+    margin-right: 10%;
+    margin-top: 1em;
+    margin-bottom: 1.45em
+    }
+p.noindent {
+    text-indent: 0%
+    }
+p.publisher {
+    margin-top: 4em;
+    text-align: center;
+    font-size: smaller;
+    margin-bottom: 3em;
+    text-indent: 0;
+    letter-spacing: 0.15ex
+    }
+p.copyright {
+    margin-top: 6em;
+    text-align: center;
+    font-size: 70%;
+    margin-bottom: 3em;
+    text-indent: 0;
+    line-height: 150%
+    }
+
+p.c12 {
+    text-align: center;
+    margin-bottom: 1.44em
+    }
+span.c11 {
+    font-size: 144%;
+    font-weight: 700
+    }
+p.c10 {
+    text-align: center;
+    margin-bottom: 1.73em
+    }
+span.c9 {
+    font-size: 173%;
+    font-weight: 700
+    }
+p.c8 {
+    text-align: center;
+    margin-bottom: 1.2em
+    }
+span.c7 {
+    font-size: 120%;
+    font-weight: 700
+    }
+p.c6 {
+    margin-bottom: 1em
+    }
+a:link {
+    color: lightpink;
+    text-decoration: none
+    }
+a:visited {
+    color: red;
+    text-decoration: none
+    }
+a:hover {
+    color: purple
+    }
+
+div.c1, div.c2, div.c3, div.c4, div.c5, div.c6, div.c7, div.c8, div.c9, div.c10, div.c11, div.c12, div.c13, div.c14{
+    color: darkgrey
+}
+div.c38 {
+    text-align: left
+    }
+div.c37 {
+    margin-left: 0.7em
+    }
+div.c36 {
+    text-indent: -0.7em
+    }
+div.c35 {
+    display: block;
+    font-size: 1.1em;
+    margin: 1em 0;
+    font-weight: bold
+    }
+div.c34 {
+    margin: 0.83em 0;
+    font-size: 1.1em;
+    text-align: center
+    }
+span.c33 {
+    font-size: smaller
+    }
+div.c32 {
+    display: block;
+    margin-top: 4em
+    }
+div.c31 {
+    margin-bottom: 2em;
+    margin-top: 6em
+    }
+div.c30 {
+    margin-bottom: 6em;
+    margin-top: 6em;
+    padding-top: 4em
+    }
+div.c29 {
+    background-image: url(images/illu_289.jpg);
+    height: 100%
+    }
+table.c29 {
+    margin-bottom: 1em;
+    margin-top: 1em
+    }
+div.c28 {
+    margin-bottom: 2.7em;
+    margin-left: 3.6em;
+    margin-top: 2.7em;
+    margin-right: 3.6em
+    }
+div.c27 {
+    width: 400px;
+    height: 170px
+    }
+div.c26 {
+    background-image: url(images/illu_172.jpg);
+    height: 100%
+    }
+div.c25 {
+    width: 355px;
+    height: 250px
+    }
+div.c24 {
+    width: 280px;
+    height: 150px
+    }
+div.c23 {
+    margin-bottom: 4em;
+    margin-top: 4em
+    }
+div.c22 {
+    width: 164px
+    }
+div.c21 {
+    background-image: url(images/illu_078.jpg);
+    height: 100%
+    }
+div.c20 {
+    width: 245px;
+    height: 230px
+    }
+div.c19 {
+    width: 300px;
+    height: 170px
+    }
+div.c18 {
+    background-image: url(images/illu_057.jpg);
+    height: 100%
+    }
+div.c17 {
+    width: 185px;
+    height: 125px
+    }
+div.c16 {
+    width: 500px;
+    height: 269px
+    }
+div.c15 {
+    width: 300px;
+    padding-top: 1em
+    }
+div.c14 {
+    text-align: center;
+    margin-left: 0.7em
+    }
+div.c13 {
+    text-indent: -0.7em
+    }
+div.c12 {
+    display: block;
+    font-size: 1.1em;
+    margin: 1em 0;
+    font-weight: bold
+    }
+div.c11 {
+    margin: 0.83em 0;
+    font-size: 1.1em;
+    text-align: center
+    }
+span.c10 {
+    font-size: smaller
+    }
+div.c9 {
+    display: block;
+    margin: 1em 0
+    }
+div.c8 {
+    display: block;
+    margin-top: 4em
+    }
+table.c7 {
+    margin-right: auto;
+    margin-left: auto
+    }
+div.c6 {
+    margin-top: 2em;
+    margin-bottom: 4em
+    }
+div.c5 {
+    display: block;
+    margin-left: 2em;
+    font-family: cursive;
+    }
+div.c4 {
+    display: block;
+    margin: 1em 0
+    }
+div.c3 {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 2em;
+    text-indent: -2em;
+    }
+div.c2 {
+    display: block;
+    margin: 1em 0;
+    }
+div.c1 {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    }
+
+div.note {
+    margin: 4em 10% 0 10%;
+    padding: 1em;
+    border: 1px dashed white;
+    color: inherit;
+    background-color: #001a31;
+    font-size: smaller
+    }
+div.initial {
+    float: left;
+    clear: both;
+    padding-top: 0;
+    padding-right: 0.3em
+    }
+span.firstwords {
+    text-transform: uppercase
+    }
+img {
+    border-style: none;
+    filter: invert(1);
+    vertical-align: middle
+    }
+div.backright {
+    background: top right no-repeat
+    }
+div.backleft {
+    background: top left no-repeat
+    }
+div.sandbag-left {
+    float: left;
+    clear: left;
+    padding-right: 10px
+    }
+div.sandbag {
+    float: right;
+    clear: right;
+    padding-left: 10px
+    }
+.tei {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-weight: normal;
+    font-style: normal;
+    }
+.bbox {
+    border: solid 1px;
+    margin-left: 20%;
+    margin-right: 20%
+    }
+.center {
+    text-align: center;
+    text-indent: 0
+    }
+.smcap {
+    font-variant: small-caps
+    }
+.figcenter {
+    margin: auto;
+    text-align: center;
+    text-indent: 0
+    }
+.figleft {
+    float: left;
+    clear: left;
+    margin-left: 0;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-right: 1em;
+    padding: 0;
+    text-align: center
+    }
+.figright {
+    float: right;
+    clear: right;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-right: 0;
+    padding: 0;
+    text-align: center
+    }
+div.footnote p {
+    text-indent: 0
+    }
+.footnotes {
+    border: dotted 1px;
+    padding-bottom: 1em;
+    margin-top: 2em
+    }
+.footnote {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: smaller
+    }
+.footnote .label {
+    position: absolute;
+    right: 84%;
+    text-align: right
+    }
+.fnanchor {
+    vertical-align: baseline;
+    font-size: 80%;
+    position: relative;
+    top: -0.4em
+    }
+
+li.c20 {
+    margin-left: 2em
+    }
+div.tei {
+    margin: 2em 0
+    }
+p.tei {
+    margin: 0 0 1em 0;
+    text-indent: 0
+    }
+blockquote.tei {
+    margin: 2em 4em
+    }
+div.tei-lg {
+    margin: 1em 0
+    }
+div.tei-l {
+    margin: 0;
+    text-align: left
+    }
+div.tei-tb {
+    text-align: center
+    }
+div.tei-epigraph {
+    margin: 0 0 1em 10em
+    }
+div.tei-dateline {
+    margin: 1ex 0;
+    text-align: right
+    }
+div.tei-salute {
+    margin: 1ex 0
+    }
+div.tei-signed {
+    margin: 1ex 0;
+    text-align: right
+    }
+div.tei-byline {
+    margin: 1ex 0
+    }
+/* calculate from size of body = 80% */
+div.tei-marginnote {
+    margin: 0 0 0 -12%;
+    width: 11%;
+    float: left
+    }
+div.tei-sp {
+    margin: 1em 0 1em 2em
+    }
+div.tei-speaker {
+    margin: 0 0 1em -2em;
+    font-weight: bold;
+    text-indent: 0
+    }
+div.tei-stage {
+    margin: 1em 0;
+    font-weight: normal;
+    font-style: italic
+    }
+span.tei-stage {
+    font-weight: normal;
+    font-style: italic
+    }
+div.tei-eg {
+    padding: 1em;
+    color: white;
+    background-color: rgb(22, 22, 22)
+    }
+hr.doublepage {
+    margin: 4em 0;
+    height: 5px
+    }
+hr.page {
+    margin: 4em 0;
+    height: 2px
+    }
+ul.tei-index {
+    list-style-type: none
+    }
+dl.tei {
+    margin: 1em 0
+    }
+dt.tei-notelabel {
+    font-weight: normal;
+    text-align: right;
+    float: left;
+    width: 3em
+    }
+dd.tei-notetext {
+    margin: 0 0 1ex 4em
+    }
+span.tei-pb {
+    position: absolute;
+    left: 1%;
+    width: 8%;
+    font-style: normal
+    }
+span.code {
+    font-family: monospace;
+    font-size: 110%
+    }
+ul.tei-castlist {
+    margin: 0;
+    list-style-type: none
+    }
+li.tei-castitem {
+    margin: 0
+    }
+table.tei-castgroup {
+    margin: 0
+    }
+ul.tei-castgroup {
+    margin: 0;
+    list-style-type: none;
+    padding-right: 2em;
+    border-right: solid white 2px
+    }
+caption.tei-castgroup-head {
+    width: 50%;
+    text-align: left;
+    vertical-align: middle;
+    padding-left: 2em
+    }
+*.tei-roledesc {
+    font-style: italic
+    }
+*.tei-set {
+    font-style: italic
+    }
