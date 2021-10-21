@@ -44,13 +44,22 @@ Modifications made:
 
 Note:
  * There might be some color inaccuracies, because my monitor isn't the most color accurate. Which means the colors might not be as right.
+ * For Part II: 
+    - Jessica Hope, Samuel Chuff and any company names mentioned in this assignment are PURELY FICTIONAL. 
+    - A Better Tomorrow (tm) is simply a random name I thought of for a sketchy, shady investment bank / shell company. 
+    - IT IS PURELY COINCIDENCE IF SUCH NAME OR COMPANY DO EXISTS.
 
 References
 ==========
 
-CSS documentations and tutorials are partially from W3School:
+CSS and HTML documentations and tutorials are from W3School:
  * Author: W3School
  * URL: https://www.w3schools.com/css/default.asp
 
 style.css took a portion of the original css attributes present in the html:
  * Authors: Al Haines, Markus Brenner, Irma Spehar
+
+Images used for homepage in this assignment are from pixabay, which follows the pixabay license:
+ * Distributor: Pixabay
+ * URL: https://pixabay.com/
+ * LICENSE: https://pixabay.com/service/terms/#license
