@@ -46,7 +46,7 @@ Note:
  * There might be some color inaccuracies, because my monitor isn't the most color accurate. Which means the colors might not be as right.
  * For Part II: 
     - Jessica Hope, Samuel Chuff and any company names mentioned in this assignment are PURELY FICTIONAL. 
-    - A Better Tomorrow (tm) is simply a random name I thought of for a sketchy, shady investment bank / shell company. 
+    - A Better Tomorrow (tm) is simply a random name I thought for a random company. 
     - IT IS PURELY COINCIDENCE IF SUCH NAME OR COMPANY DO EXISTS.
 
 References
